@@ -2,7 +2,8 @@
 
 Go deps getting you down? 
 
-Clone this repo & fix it. How To: `
+Clone this repo & fix it. How To: 
+```bash
    mkdir ~/scratch
    cd ~/scratch
    git clone github.com/snadrus/fromhereto
@@ -10,7 +11,7 @@ Clone this repo & fix it. How To: `
    go build
    cd <<YOUR_MAIN_FOLDER>>
    ~/scratch/fromhereto/fromhereto . >deps.json
-`
+```
 
 Open that in your favorite editor. It's all the imports for all the packages your main and all its dependencies import. 
 
