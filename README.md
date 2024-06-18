@@ -2,12 +2,15 @@
 
 Go deps getting you down? 
 
-Clone this repo & fix it. How To:
+Clone this repo & fix it. How To: `
    mkdir ~/scratch
    cd ~/scratch
    git clone github.com/snadrus/fromhereto
+   cd ~/scratch/fromhereto
+   go build
    cd <<YOUR_MAIN_FOLDER>>
-   go run ~/scratch/fromhereto/fromhereto.go . >deps.json
+   ~/scratch/fromhereto/fromhereto . >deps.json
+`
 
 Open that in your favorite editor. It's all the imports for all the packages your main and all its dependencies import. 
 
